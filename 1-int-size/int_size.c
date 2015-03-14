@@ -9,6 +9,9 @@
 //
 // A 32-bit machine has a range of -2147483648 to 2147483647
 //
+// Adding 1 to the max integer size wraps the value around to the
+// smallest integer size.
+//
 int main() {
   int min, max;
 
