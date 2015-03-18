@@ -23,4 +23,6 @@ int powa(int n, int m) {
 
 int main() {
   printf("pow 2, 5 %d", powa(2, 5));
+  
+  return 0;
 }
