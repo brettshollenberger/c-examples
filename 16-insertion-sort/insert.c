@@ -22,13 +22,7 @@ void insertion_sort(int items[], int t_len) {
 }
 
 int main() {
-  int i = 0, arr[5];
-
-  arr[0] = 3;
-  arr[1] = 5;
-  arr[2] = 1;
-  arr[3] = 4;
-  arr[4] = 2;
+  int i = 0, arr[5] = { 3, 5, 1, 4, 2 };
 
   insertion_sort(arr, sizeof(arr)/sizeof(arr[0]));
 
